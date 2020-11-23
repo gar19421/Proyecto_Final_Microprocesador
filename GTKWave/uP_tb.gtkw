@@ -1,0 +1,48 @@
+[*]
+[*] GTKWave Analyzer v3.3.77 (w)1999-2016 BSI
+[*] Mon Nov 23 02:30:37 2020
+[*]
+[dumpfile] "C:\Users\brand\Downloads\UVG\CUARTO SEMESTRE\DIGITAL 1\Proyecto Final Procesador\Proyecto_Final_Microprocesador\Prueba testbech nota\uP_tb.vcd"
+[dumpfile_mtime] "Mon Nov 23 02:27:25 2020"
+[dumpfile_size] 46586
+[savefile] "C:\Users\brand\Downloads\UVG\CUARTO SEMESTRE\DIGITAL 1\Proyecto Final Procesador\Proyecto_Final_Microprocesador\Prueba testbech nota\uP_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-4.000000 27 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+testbench.clock
+testbench.reset
+[color] 1
+testbench.phase
+@22
+[color] 2
+testbench.PC[11:0]
+[color] 3
+testbench.address_RAM[11:0]
+[color] 5
+testbench.program_byte[7:0]
+[color] 5
+testbench.data_bus[3:0]
+testbench.instr[3:0]
+testbench.oprnd[3:0]
+[color] 7
+testbench.accu[3:0]
+@28
+[color] 7
+testbench.z_flag
+testbench.c_flag
+@23
+[color] 2
+testbench.pushbuttons[3:0]
+@22
+testbench.FF_out[3:0]
+@420
+[color] 1
+testbench.nota
+[pattern_trace] 1
+[pattern_trace] 0
