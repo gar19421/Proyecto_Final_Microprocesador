@@ -1,3 +1,7 @@
+//Brandon Garrido 
+//Carnet: 19421
+// Ing. Mecatrónica
+
 //Flip-Flop tipo D de 1 bit
 module FF_1BIT (input wire clk, reset, enable, input wire D, output reg Q);
 	always @ (posedge clk or posedge reset or enable)begin
