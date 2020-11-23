@@ -1,7 +1,6 @@
-/* Margareth Vela
-Carné 19458
-Sección: 20
-*/
+//Brandon Garrido
+//Carnet: 19421
+// Ing. Mecatrónica
 
 module testbench();
 
@@ -24,8 +23,8 @@ module testbench();
     $monitor("%b       %b       %b    |   %b       %b        %b      %b    %b     %b      %b    %b     %b     %b    %b ", clock, reset, pushbuttons, phase, c_flag, z_flag, instr, oprnd, data_bus, FF_out, accu, program_byte, PC, address_RAM);
 
       reset = 1; clock = 0; pushbuttons = 4'b0;
-  #1  reset = 0; pushbuttons = 4'b0110;
-  #242 pushbuttons = 4'b1110;
+      #1  reset = 0; pushbuttons = 4'b0110;
+      #242 pushbuttons = 4'b1110;
     end
 
     initial
